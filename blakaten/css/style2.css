@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header
+{
+	overflow: auto;
+}
+.div1
+{
+	background-color: #DDD;
+    width: 47%;
+    font-size: 25px;
+    overflow: auto;
+    padding-top: 8px;
+    padding-left: 23px;
+    margin-left: 55px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+    float: left;
+}
+
+.title
+{
+	float: left;
+	color: white;
+	margin:8px 0;
+	font-weight: 500;
+}
+.title span
+{
+	color: green;
+}
+.navbar
+{
+	float: right;
+	margin-right: 42px;
+}
+
+.navbar ul 
+{
+	list-style: none;
+	margin: 6px 0;
+}
+.navbar ul li
+{
+	display: inline;
+	
+}
+
+.navbar ul li a
+{
+	text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding: 4px;
+    margin-right: 5px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.clearfix
+{
+	clear: both;
+}
+
+.content
+{
+	margin: 125px 0;
+    width: 448px
+}
+.content h1
+{
+	margin-bottom: 39px;
+}
+.content p
+{
+	font-size: 22px;
+}
+.div2
+{
+	height: 80%;
+	width: 40%;
+	background-color: yellow;
+	float: left;
+}

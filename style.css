@@ -1,0 +1,77 @@
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.head
+			{
+				
+				background-color: #DDD;
+				
+				height: 50px;
+
+			}
+			.head p
+			{
+				font-size: 30px;
+				text-align: center;
+				padding-top: 7px;
+				
+
+			}
+			.box
+			{
+				
+				float: left;
+				background-color: #D3D3D3;
+				width: 25%;
+				margin-left: 67px;
+				margin-top: 30px;
+				font-size: 20px;
+				
+			}
+			.box p
+			{
+				padding: 20px;
+			}
+
+			table
+			{
+				border: 1px solid black;
+				margin:auto;
+				border-collapse: collapse;
+				width: 70%;
+			}
+
+			td, th
+		    {
+			  border: 1px solid black;
+			  border-collapse: collapse;
+			 padding: 10px; 
+
+			}
+		
+
+			#p1
+			{
+				clear: both;
+			}
+
+			img 
+			{
+				float: left;
+				margin-right: 10px;
+
+			}
+		    .w
+			{
+				overflow: auto;
+				width: 500px; 
+				margin-top: 20px;
+				clear: both;
+
+			}
+
+			.clearfix
+			{
+				display: table;
+			}

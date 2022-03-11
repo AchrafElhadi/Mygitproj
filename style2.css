@@ -1,0 +1,31 @@
+*
+{
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+}
+.nav
+{
+	background-color: #DDD;
+	display: table;
+	width: 100%;
+	height: 100px;
+
+}
+
+ul
+{
+	list-style: none;
+	margin-top: 30px;
+	float: right;
+	margin-right: 20px;
+
+}
+li
+{
+	padding:7px;
+	margin-right: 8px;
+	border: 1px solid black;
+	float: left;
+	font-size: 20px;
+}
